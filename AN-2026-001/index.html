@@ -131,7 +131,7 @@ ficha de criterio de selección: registrada (Fase 0, cerrada)</div>
 <a href="AN-2026-001_v1_pieza.mp4#t=465" data-t="465">7:45</a> 5 · no consta<br>
 <a href="AN-2026-001_v1_pieza.mp4#t=560" data-t="560">9:20</a> 6 · qué vigilar<br>
 <a href="AN-2026-001_v1_pieza.mp4#t=646" data-t="646">10:46</a> 7 · cierre</p>
-<script>(function(){var v=document.getElementById('pieza');if(!v)return;[].forEach.call(document.querySelectorAll('a[data-t]'),function(a){a.addEventListener('click',function(e){e.preventDefault();v.currentTime=+a.getAttribute('data-t');var p=v.play();if(p&&p.catch)p.catch(function(){});v.scrollIntoView({block:'nearest'});});});})();</script>
+<script>(function(){var v=document.getElementById('pieza');if(!v)return;function ir(t){if(v.readyState>0){v.currentTime=t;}else{v.addEventListener('loadedmetadata',function h(){v.removeEventListener('loadedmetadata',h);v.currentTime=t;});}var p=v.play();if(p&&p.catch)p.catch(function(){});v.scrollIntoView({block:'nearest'});}[].forEach.call(document.querySelectorAll('a[data-t]'),function(a){a.addEventListener('click',function(e){e.preventDefault();ir(+a.getAttribute('data-t'));});});})();</script>
 <p class="ap">También en YouTube: <a href="https://www.youtube.com/watch?v=IseZPuz4CdQ">https://www.youtube.com/watch?v=IseZPuz4CdQ</a></p>
 
 <h2>Versiones</h2>
