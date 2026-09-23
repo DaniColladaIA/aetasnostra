@@ -65,6 +65,8 @@ th{font-weight:500;color:var(--aparato)}
 
 .aviso{font-family:var(--mono);font-size:.85rem;color:var(--aparato);border-top:1px solid var(--linea);border-bottom:1px solid var(--linea);padding:1rem 0;margin:2rem 0}
 
+.pieza{max-width:720px}
+
 @media (max-width:640px){
   html{font-size:16px}
   h1{font-size:1.6rem}
