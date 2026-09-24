@@ -5,7 +5,10 @@
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Aetas Nostra</title>
 <meta name="description" content="Aetas Nostra documenta el presente geopolítico mientras su desenlace sigue abierto: qué decisión está sobre la mesa, qué consta, quién decide y con qué">
-<link rel="canonical" href="https://aetasnostra.es">
+<link rel="canonical" href="https://aetasnostra.es/">
+<meta property="og:site_name" content="Aetas Nostra">
+<meta property="og:locale" content="es_ES">
+<meta property="og:type" content="website">
 <link rel="icon" href="/favicon.ico" sizes="16x16 32x32 48x48">
 <link rel="icon" href="/favicon.svg" type="image/svg+xml">
 <link rel="apple-touch-icon" href="/apple-touch-icon-180.png">
@@ -89,6 +92,52 @@ th{font-weight:500;color:var(--aparato)}
 }
 </style>
 <meta name="robots" content="index,follow">
+<script type="application/ld+json" id="an-marcado">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://aetasnostra.es/#sitio",
+      "name": "Aetas Nostra",
+      "alternateName": [
+        "aetasnostra.es"
+      ],
+      "url": "https://aetasnostra.es/",
+      "inLanguage": "es",
+      "publisher": {
+        "@id": "https://aetasnostra.es/#organizacion"
+      }
+    },
+    {
+      "@type": "Organization",
+      "@id": "https://aetasnostra.es/#organizacion",
+      "name": "Aetas Nostra",
+      "alternateName": [
+        "aetasnostra.es"
+      ],
+      "url": "https://aetasnostra.es/",
+      "logo": "https://aetasnostra.es/icon-512.png",
+      "description": "Aetas Nostra documenta el presente geopolítico mientras su desenlace sigue abierto: qué decisión está sobre la mesa, qué consta, quién decide y con qué límites, qué podía hacerse en su lugar, qué no se sabe y qué habrá que vigilar.",
+      "publishingPrinciples": "https://aetasnostra.es/metodo/",
+      "ownershipFundingInfo": "https://aetasnostra.es/estado/",
+      "sameAs": [
+        "https://www.youtube.com/channel/UCLE0oEYYG_L3g4mQe-3KcpQ"
+      ]
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://aetasnostra.es/",
+      "url": "https://aetasnostra.es/",
+      "name": "Aetas Nostra",
+      "inLanguage": "es",
+      "isPartOf": {
+        "@id": "https://aetasnostra.es/#sitio"
+      }
+    }
+  ]
+}
+</script>
 </head>
 <body>
 <header class="cab">
