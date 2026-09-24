@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>https://aetasnostra.es/</loc></url>
-  <url><loc>https://aetasnostra.es/expedientes/</loc></url>
-  <url><loc>https://aetasnostra.es/AN-2026-001/</loc></url>
-  <url><loc>https://aetasnostra.es/AN-2026-001/v1/</loc></url>
-  <url><loc>https://aetasnostra.es/metodo/</loc></url>
+  <url><loc>https://aetasnostra.es/</loc><lastmod>2026-09-23T16:58:18+02:00</lastmod></url>
+  <url><loc>https://aetasnostra.es/expedientes/</loc><lastmod>2026-09-23T16:58:18+02:00</lastmod></url>
+  <url><loc>https://aetasnostra.es/AN-2026-001/</loc><lastmod>2026-09-23T16:58:18+02:00</lastmod></url>
+  <url><loc>https://aetasnostra.es/metodo/</loc><lastmod>2026-09-19T08:45:29+02:00</lastmod></url>
   <url><loc>https://aetasnostra.es/estado/</loc></url>
-  <url><loc>https://aetasnostra.es/sobre/</loc></url>
+  <url><loc>https://aetasnostra.es/sobre/</loc><lastmod>2026-09-19T08:45:29+02:00</lastmod></url>
 </urlset>
